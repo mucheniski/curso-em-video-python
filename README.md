@@ -18,4 +18,9 @@ from nomelib import nomeelemento
 Para importar dois ou mais elementos da lib usar  
 from nomelib import nomeelemento1, nomeelemento2, ...
 
-[Documentação Python de libs](https://docs.python.org/3/library/index.html) 
+[Documentação Python de libs](https://docs.python.org/3/library/index.html)  
+
+[Instalar o pygame](https://www.pygame.org/wiki/GettingStarted) 
+~~~python
+py -m pip install -U pygame --user
+~~~
