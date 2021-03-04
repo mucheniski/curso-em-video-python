@@ -17,6 +17,7 @@ print('Mostrar quantas vezes encontrou deo, onde começa ', frase.find('deo'))
 print('Buscar uma string que não existe, deve retornar menos um ', frase.find('rute'))
 print('Boolean se existe a frase ', 'Curso' in frase)
 #Nesse caso o próprio Python cria um novo array com mais caracteres para caber Android
+#para alterar a frase é preciso fazer frase = frase.replace
 print('Substituindo palavras ', frase.replace('Python', 'Android'))
 print('Imprimindo em maiúscula ', frase.upper())
 print('Imprimindo em minúsculo ', frase.lower())
