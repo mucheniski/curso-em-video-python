@@ -3,7 +3,7 @@
 # O programa deverá escrever na tela se o usuário venceu ou perdeu.
 import random
 
-numeros = [0, 1, 2, 3, 4, 5]
+numeros = random.randint(0, 5)
 numeroSorteado = random.choice(numeros)
 # print('Numero sorteado: {}'.format(numeroSorteado))
 numeroEscolhido = int(input('Escolha um número: '))
