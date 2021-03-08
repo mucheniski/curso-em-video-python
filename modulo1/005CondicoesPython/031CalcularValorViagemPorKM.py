@@ -8,4 +8,4 @@ if distanciaKM <= 200.0:
 else:
     valorViagem = distanciaKM * 0.45
 
-print('O Valor da viagem é de R$ {}'.format(valorViagem))
+print('O Valor da viagem é de R$ {:.2f}'.format(valorViagem))
