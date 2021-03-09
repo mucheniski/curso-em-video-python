@@ -23,4 +23,14 @@ from nomelib import nomeelemento1, nomeelemento2, ...
 [Instalar o pygame](https://www.pygame.org/wiki/GettingStarted) 
 ~~~python
 py -m pip install -U pygame --user
-~~~
+~~~  
+
+Padrão ANSI  
+Padrão de normalização internacional que funciona em vários ambientes, tudo em ANSI começa com \codigo  
+ex de ANSI para cores:  
+\033[style;text-color;backgoundm  
+\033[0;33;44m  
+![](img/PadraoANSICores.PNG)  
+
+Exemplos:  
+![](img/ExemplosANSI.PNG)]
