@@ -3,9 +3,8 @@
 # O programa deverá escrever na tela se o usuário venceu ou perdeu.
 import random
 
-numeros = random.randint(0, 5)
-numeroSorteado = random.choice(numeros)
-# print('Numero sorteado: {}'.format(numeroSorteado))
+numeroSorteado = random.randint(0, 5)
+print('Numero sorteado: {}'.format(numeroSorteado))
 numeroEscolhido = int(input('Escolha um número: '))
 if numeroEscolhido == numeroSorteado:
     print('Acerto miseravi!')
