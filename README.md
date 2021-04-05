@@ -33,4 +33,9 @@ ex de ANSI para cores:
 ![](img/PadraoANSICores.PNG)  
 
 Exemplos:  
-![](img/ExemplosANSI.PNG)]
+![](img/ExemplosANSI.PNG)]  
+
+Para não pular linha no print, colocar , end='' no final  
+~~~python
+print('{}'.format(contador), end='')
+~~~
