@@ -39,3 +39,6 @@ Para não pular linha no print, colocar , end='' no final
 ~~~python
 print('{}'.format(contador), end='')
 ~~~
+
+Mundo 03 - Tuplas
+As tuplas são imutáveis, funcionam semelhantes as listas, como no exemplo da aula 16 do mundo 03  
