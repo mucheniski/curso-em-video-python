@@ -3,11 +3,11 @@
 lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim')
 print('='*100)
 print(lanche)
-print(lanche[1])
-print(lanche[-1])
-print(lanche[1:3])
-print(lanche[2:])
-print(lanche[:2])
+print('lanche[1] - ', lanche[1])
+print('lanche[-1] - ', lanche[-1])
+print('lanche[1:3] - ', lanche[1:3])
+print('lanche[2:] - ', lanche[1:3])
+print('lanche[:2] - ', lanche[:2])
 
 print('='*100)
 for comida in lanche:
@@ -36,7 +36,7 @@ d = b + a
 print(c)
 print(d)
 print(c.count(5))
-print(c.index(3))
+print('c.index(3) - ', c.index(3))
 # sempre retorna a primeira ocorrencia, no caso como tem 2 x o numero 5, se eu quiser pegar a segunda ocorrência:
 # print(c.index(de, a partir da posição x))
 print(c.index(5,4))
