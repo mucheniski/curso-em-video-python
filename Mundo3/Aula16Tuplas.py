@@ -37,6 +37,9 @@ print(c)
 print(d)
 print(c.count(5))
 print('c.index(3) - ', c.index(3))
+print(max(d))
+print(min(d))
+
 # sempre retorna a primeira ocorrencia, no caso como tem 2 x o numero 5, se eu quiser pegar a segunda ocorrência:
 # print(c.index(de, a partir da posição x))
 print(c.index(5,4))
