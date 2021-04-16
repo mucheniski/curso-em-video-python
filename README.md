@@ -42,3 +42,5 @@ print('{}'.format(contador), end='')
 
 Mundo 03 - Tuplas
 As tuplas são imutáveis, funcionam semelhantes as listas, como no exemplo da aula 16 do mundo 03  
+
+Listas são mutáveis e são usadas com colchetes []
