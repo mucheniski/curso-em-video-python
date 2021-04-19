@@ -26,6 +26,10 @@ print('Ver a quantidade de elementos len(listaNumeros)')
 print(len(listaNumeros))
 
 print('-'*100)
+print('Pegar o último elemento da lista')
+print(listaNumeros[-1])
+
+print('-'*100)
 print('Inserir em um local específico listaNumeros.insert(posicao, valor) listaNumeros.insert(2,0)')
 print(listaNumeros)
 listaNumeros.insert(2,0)
