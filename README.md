@@ -43,4 +43,9 @@ print('{}'.format(contador), end='')
 Mundo 03 - Tuplas
 As tuplas são imutáveis, funcionam semelhantes as listas, como no exemplo da aula 16 do mundo 03  
 
-Listas são mutáveis e são usadas com colchetes []
+Listas são mutáveis e são usadas com colchetes []  
+
+Listas compostas - Listas dentro de listas  
+![](img/ListasCompostas.PNG)  
+
+[:] significa cópia da lista, se eu fizer apenas o append, uma lista vai estar relacionada a outra
