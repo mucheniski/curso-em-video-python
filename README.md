@@ -48,4 +48,11 @@ Listas são mutáveis e são usadas com colchetes []
 Listas compostas - Listas dentro de listas  
 ![](img/ListasCompostas.PNG)  
 
-[:] significa cópia da lista, se eu fizer apenas o append, uma lista vai estar relacionada a outra
+[:] significa cópia da lista, se eu fizer apenas o append, uma lista vai estar relacionada a outra  
+
+Interactive Help  
+É o manual completo das funcionlidades pytbon, basta ir em Python Console no Pycharm e digitar help()  
+Vai ser aberto o console com >? que é o console do interactive help, após isso basta digitar o nome da  
+função que você precisa ver os detalhes, como por exemplo o print, para sair digitar quit  
+ou então no pycharm mesmo digitar help(print), também vai ser mostrado o manual do print  
+
