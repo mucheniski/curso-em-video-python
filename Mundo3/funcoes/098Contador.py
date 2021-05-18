@@ -6,7 +6,23 @@
 
 
 def contador(inicio, fim, passo):
-    for i in range(inicio, fim, passo):
-        print(i, end=' ')
+
+    if inicio < fim:
+        for i in range(inicio, fim, passo):
+            print(i, end=' ')
+    if fim < inicio:
+        for i in range(inicio, fim, -passo): # passo negativo decrementa o valor
+            print(i, end=' ')
+
+
+def pulaLinha():
+    print()
+    print('='*50)
+    print()
+
 
 contador(1, 10, 1)
+pulaLinha()
+
+contador(10, 1, 2)
+pulaLinha()
