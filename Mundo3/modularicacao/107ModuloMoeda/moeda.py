@@ -2,20 +2,36 @@
 # aumentar(), diminuir(), dobro() e metade().
 # Faça também um programa que importe esse módulo e use algumas dessas funções.
 
-def aumentar(valor):
-    return valor + 1
+def aumentar(valor, formatar=False):
+    retorno = valor + 1
+    if formatar:
+        return formataMoeda(retorno)
+    else:
+        return retorno
 
 
-def diminuir(valor):
-    return valor - 1
+def diminuir(valor, formatar=False):
+    retorno = valor - 1
+    if formatar:
+        return formataMoeda(retorno)
+    else:
+        return retorno
 
 
-def dobro(valor):
-    return valor * 2
+def dobro(valor, formatar=False):
+    retorno = valor * 2
+    if formatar:
+        return formataMoeda(retorno)
+    else:
+        return retorno
 
 
-def metade(valor):
-    return valor / 2
+def metade(valor, formatar=False):
+    retorno = valor / 2
+    if formatar:
+        return formataMoeda(retorno)
+    else:
+        return retorno
 
 
 def formataMoeda(valor, moeda = 'R$'):
