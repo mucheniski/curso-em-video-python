@@ -1,10 +1,17 @@
 from lib.interface import *
+from lib.arquivo import *
 from time import sleep
 
+nomeArquivo = 'pessoas.txt'
+
+if not arquivoExiste(nomeArquivo):
+    criarArquivo(nomeArquivo)
+
 while True:
-    resposta = menu(['Criar', 'Editar', 'Sair'])
+    resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoa', 'Sair'])
     if resposta == 1:
-        print('Opção 1')
+        lerArquivo(nomeArquivo)
+
     elif resposta == 2:
         print('Opção 2')
     elif resposta == 3:
