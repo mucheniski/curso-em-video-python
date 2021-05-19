@@ -16,3 +16,7 @@ def dobro(valor):
 
 def metade(valor):
     return valor / 2
+
+
+def formataMoeda(valor, moeda = 'R$'):
+    return f'{moeda}{valor}'.replace('.', ',')
