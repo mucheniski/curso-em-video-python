@@ -13,7 +13,10 @@ while True:
         lerArquivo(nomeArquivo)
 
     elif resposta == 2:
-        print('Opção 2')
+        nomePessoa = str(input('Nome: '))
+        idade = leiaInt('Idade: ')
+        cadastrarPessoa(nomeArquivo, nomePessoa, idade)
+
     elif resposta == 3:
         print('Saindo')
         break

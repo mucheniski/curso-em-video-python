@@ -26,5 +26,5 @@ def menu(lista):
         print(f'{opcao} - {item}')
         opcao += 1
     linha()
-    opcao = leiaInt('Sua oplçao: ')
+    opcao = leiaInt('Sua opçao: ')
     return opcao
