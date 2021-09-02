@@ -6,7 +6,7 @@ try:
 except TypeError as erro:
     print(f'Erro de tipo {erro.__class__}')
 except ZeroDivisionError as erro:
-    pritn(f'Erro divido por zero {erro.__class__}')
+    print(f'Erro divido por zero {erro.__class__}')
 except Exception as erro:
     print(f'Moio deu erro {erro.__class__}')
 else:
